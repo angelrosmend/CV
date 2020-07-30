@@ -72,7 +72,7 @@ SIDEBAR
     flex-direction: column;
    
 }
-.nav{
+.btn{
   
   width: 60%;
   background: #0d0d20;
@@ -87,7 +87,7 @@ SIDEBAR
   
 
 }
-.nav:hover{
+.btn:hover{
     background: #151533;
     box-shadow: 0 0 3px #2196f3, 0 0 7px #2196f3, 0 0 15px #2196f3;
 }
@@ -122,35 +122,29 @@ INFO CONTENT
   
 }
 
-.about-wrapper{
+.about-wrapper, .skills-wrapper {
     display: flex;
     flex-direction: row;
 }
 .about-group-1 p, .about-group-2 p{
     margin: 0.5rem;
 }
-.port-img img{
-  width: 65%;
+
+.overview{
+    padding: 0.6rem 0.5rem;
 }
 
-.portofolio{
-    
+.exp{
+    list-style: none;
+    margin: 0.5rem;
+}
+.skills-wrapper {
     display: flex;
-    flex-flow: row wrap;
+    flex-direction: row;
 }
-
-.port-img{
-
-    flex: 1 1 22%;
-    margin: 5px;
-    padding: 25px;
-    text-align: center;
-    background-color: whitesmoke;
-
-    
+.front, .back, .languages{
+    padding: 0.7rem;
 }
-.port-img p{
-    text-align: center;
+.front li, .back li, .languages li{
+    list-style: none;
 }
-
-
