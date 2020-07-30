@@ -127,7 +127,7 @@ INFO CONTENT
     flex-direction: row;
 }
 .about-group-1 p, .about-group-2 p{
-    margin: 0.5rem 0.7rem;
+    margin: 0.5rem;
 }
 .port-img img{
   width: 65%;
