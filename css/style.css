@@ -8,7 +8,7 @@ html {
 }
 
 body{ 
-    background: url(./img/background_cv.jpg);
+    background: url(../img/background_cv.jpg);
     font-family: 'Times New Roman', Times, serif;
     margin: 0px 50px 10px 50px;
     padding: 20px;
@@ -30,6 +30,8 @@ h4, a, b{
     color: #0d0d20;
     text-decoration: none;
 }
+
+
 .container{
 
     max-width: 1000px;
@@ -109,7 +111,6 @@ INFO CONTENT
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-
     min-height: 900px;
 }
 
@@ -119,6 +120,14 @@ INFO CONTENT
     background-color: white;
     flex: 1;
   
+}
+
+.about-wrapper{
+    display: flex;
+    flex-direction: row;
+}
+.about-group-1 p, .about-group-2 p{
+    margin: 0.5rem 0.7rem;
 }
 .port-img img{
   width: 65%;
